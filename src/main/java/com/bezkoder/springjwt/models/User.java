@@ -18,7 +18,6 @@ public class User {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-
 	private String first_name ;
 	private String last_name ;
 	@Size(max = 20)
